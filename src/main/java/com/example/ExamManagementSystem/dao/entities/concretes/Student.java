@@ -27,5 +27,5 @@ public class Student extends BaseEntity {
     private String password;
 
     @ManyToMany
-    private Role role; // Assuming Role is an entity that represents the student's role
+    private List<Role> role; // Assuming Role is an entity that represents the student's role
 }
